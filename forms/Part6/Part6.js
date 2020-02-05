@@ -1,3 +1,3 @@
-let x= 20
+let x=20
 let y= 30
-alert(x+y)
+alert(`The answer is ${x+y}.`)

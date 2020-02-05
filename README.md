@@ -1,2 +1,2 @@
-# fixit6PeterVaupel.appstudio
+# fixIt6PeterVaupel.appstudio
  
