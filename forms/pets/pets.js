@@ -1,7 +1,7 @@
-let petNames= ['Darcy', 'Jack', 'Jerry', 'Marty', 'Vito', 'Vinny', 'Riley', 'Saddie', 'Marge', 'Sam']
+var petNames= ['Darcy', 'Jack', 'Jerry', 'Marty', 'Vito', 'Vinny', 'Riley', 'Saddie', 'Marge', 'Sam']
 console.log(`${petNames}`)
 
-let withMaramaduke= petNames.push('Marmaduke')
+var withMaramaduke= petNames.push('Marmaduke')
 
 petNames.splice(5,1)
 console.log(`The action taken was: Remove Vinny from the array.`)
@@ -30,6 +30,21 @@ console.log(`${cindyNum}`)
 
 let petMaramaduke = petNames.concat(withMaramaduke)
 console.log(`Shows the withMaramaduke array data.`)
-console.log(`${petMaramaduke}`)
+console.log(`The remaining data are: ${petMaramaduke}`)
 
+let abB= petNames.shift()
+console.log(`The removed element is: ${abB}.`)
+
+let abC= petNames.unshift('Barney')
+console.log(`The added element is: ${abC}.`)
+
+let somePets = ['Ted','Fred','Jed','Ned','Ed','Zed']
+let allPets = petNames.concat(somePets)
+console.log(`${allPets}`)
+
+let stringPets = petNames.join()
+console.log(`${stringPets}`)
+
+let abF = petNames.unshift('Agnes')
+console.log(`The added element is: ${abF}.`)
 
