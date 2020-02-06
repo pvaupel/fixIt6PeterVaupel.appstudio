@@ -28,7 +28,8 @@ let cindyNum = petNames.indexOf('Cindy')
 console.log(`The action taken was: Show the array index of Cindy.`)
 console.log(`${cindyNum}`)
 
+let petMaramaduke = petNames.concat(withMaramaduke)
 console.log(`Shows the withMaramaduke array data.`)
-console.log(`${withMaramaduke}`)
+console.log(`${petMaramaduke}`)
 
 
