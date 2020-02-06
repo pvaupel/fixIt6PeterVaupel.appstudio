@@ -1,6 +1,7 @@
 let petNames= ['Darcy', 'Jack', 'Jerry', 'Marty', 'Vito', 'Vinny', 'Riley', 'Saddie', 'Marge', 'Sam']
-let withMaramaduke = petNames.push['Marmaduke']
-console.log(petNames)
+console.log(`${petNames}`)
+
+let withMaramaduke= petNames.push('Marmaduke')
 
 petNames.splice(5,1)
 console.log(`The action taken was: Remove Vinny from the array.`)
@@ -14,7 +15,7 @@ petNames.unshift('Nancy')
 console.log(`The action taken was: Add Nancy to the front of the array.`)
 console.log(`The remaining data are: ${petNames}.`)
 
-let userName = alert("What is your name?")
+let userName = prompt("What is your name?")
 petNames.push(userName)
 console.log(`The action taken was: Add user name to the end of the array.`)
 console.log(`The remaining data are: ${petNames}.`)
@@ -28,6 +29,6 @@ console.log(`The action taken was: Show the array index of Cindy.`)
 console.log(`${cindyNum}`)
 
 console.log(`Shows the withMaramaduke array data.`)
-console.log(${withMaramaduke})
+console.log(`${withMaramaduke}`)
 
 
